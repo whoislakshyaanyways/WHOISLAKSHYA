@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://lakshyasharma.github.io/portfolio",
   "dependencies": {
     "framer-motion": "^12.23.12",
     "react": "^19.1.0",

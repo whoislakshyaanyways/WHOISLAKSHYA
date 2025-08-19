@@ -15,6 +15,8 @@
     "a3 a3 a3 a3 a3"
     "a3 a3 a3 a3 a3"
     ;
+    overflow-y: auto;
+
 }
 
 .skillHeading{
@@ -28,6 +30,8 @@
 .skillHeading {
   margin: 0px;
   width: 100%;
+  display: flex;
+  align-items: end;
   font-size: clamp(2rem, 4vw, 4.5rem);
   font-weight: bolder;
   font-family: 'arvo';
@@ -86,5 +90,6 @@
   font-size: clamp(2rem, 4vw, 4.5rem);
   display: flex;
   align-items: end;
+  transform: translateY(20%);
 }
 }
