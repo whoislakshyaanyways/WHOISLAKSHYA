@@ -1,0 +1,120 @@
+
+.orbit-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.orbit1 {
+  width: 50vh;
+  height: 50vh;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  border-color: var(--text);
+  position: absolute;
+  animation: spin 15s linear infinite;
+}
+
+.orbit-text-svg-1{
+  overflow: visible;
+}.orbit-text-svg-2{
+  overflow: visible;
+}
+
+.orbit-text{
+  transform: translate(0,-11%);
+}
+/* Main Text */
+.orbit-text-main {
+  fill: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 150%; /* 50% larger than default */
+  letter-spacing: 2px;
+}
+
+/* Sub Text */
+.orbit-text-sub {
+  fill: #aaa;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70%;  /* smaller size */
+  letter-spacing: 1px;
+}
+
+
+
+.orbit2 {
+  --quantity: 9;
+  --radius: 50vh;
+  --dur: 30s;  /* slower orbit, was 15s */
+  width: 100vh;
+  height: 100vh;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  border-color: var(--text);
+  position: absolute;
+  animation: spin var(--dur) linear infinite;
+}
+
+.orbit:hover {
+  animation-play-state: paused !important;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  --angle: calc(360deg / var(--quantity) * (var(--position) - 1));
+
+  transform: translate(-50%, -50%)
+             rotate(var(--angle))
+             translate(var(--radius))
+             rotate(calc(-1 * var(--angle)));
+
+  animation: orbit var(--dur) linear infinite;
+  animation-delay: calc((-1 * var(--dur) / var(--quantity)) * (var(--position) - 1));
+}
+
+.icon-content {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* When hovering the orbit → all icons grow */
+.orbit:hover .icon-content {
+  transform: scale(1.5);
+}
+
+/* When hovering a single icon → that one grows more */
+.orbit:hover .icon:hover .icon-content {
+  transform: scale(2);
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%)
+               rotate(var(--angle))
+               translate(var(--radius))
+               rotate(calc(-1 * var(--angle)));
+  }
+  100% {
+    transform: translate(-50%, -50%)
+               rotate(calc(var(--angle) + 360deg))
+               translate(var(--radius))
+               rotate(calc(-1 * (var(--angle) + 360deg)));
+  }
+}

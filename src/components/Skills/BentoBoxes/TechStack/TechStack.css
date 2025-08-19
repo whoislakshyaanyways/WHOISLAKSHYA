@@ -1,0 +1,15 @@
+.skill3Box{
+  height: 100%;
+  width: 100%;
+    border-radius: 16px;
+
+  font-family: 'Bebas Neue';
+  background: var(--accent);
+  display: flex;               
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;           
+  color: var(--text);  
+  position: relative;
+  overflow: hidden;    
+}

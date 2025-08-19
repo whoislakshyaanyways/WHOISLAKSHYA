@@ -1,0 +1,51 @@
+/* index.css */
+:root {
+  --bento-height: 90vh;
+  --bento-width: 80%;
+  --skill-count: 7;
+}
+
+:root {
+  --width: 300px;  
+  --height: 300px; 
+  --quant: 9;       
+}
+
+
+:root {
+  --text: #192338;
+  --background: #d9e0ed;
+  --secondaryBackground: #f0f3fa;
+  --primary: #8aaee0;
+  --secondary: #628ecb;
+  --secondary2:#395886;
+  --accent: #cde1f4;
+--gradient: linear-gradient(to right, var(--secondary), var(--secondary2));
+
+}
+
+[data-theme="dark"]{
+    --text: #c7d1e6;
+  --background: #121926;
+  --secondaryBackground: #2b2e4f;
+  --primary: #1f4375;
+  --secondary: #34609d;
+  --secondary2:#7bb8c6;
+  --accent: #0b1f32;
+--gradient: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+body {
+  font-family: sans-serif;
+    background-color: (--background);
+
+  
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+

@@ -1,0 +1,33 @@
+.card-container {
+  position: absolute;
+  padding-left: 1rem;  
+  padding-right: 1rem;
+  padding-top: 0.7rem;      
+  padding-bottom: 0.7rem;
+  font-size: 2cqb;    
+  text-align: center;
+  border-radius: 9999px; /* Updated from 9999px to match glass style */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Glass shadow */
+  color: var(--text);
+  font-weight: 200;
+  font-family: 'Bebas Neue';
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.10); /* Glass border */
+  width: 12rem;          
+  cursor: grab;
+}
+
+
+
+.img{
+  position: absolute;
+  width: 4rem;            
+  cursor: grab;
+    
+  border: none;
+  display: block;
+  max-width: 100%; 
+
+}
