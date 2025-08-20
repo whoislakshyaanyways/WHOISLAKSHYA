@@ -21,7 +21,7 @@ function Hero(){
                     <div class="container">
                         <h1 className="content-heading-1">Hello, I'm</h1>
                         <h1 className="content-heading-2">Lakshya<span>!</span></h1>
-                        <p className="content-content">I am a self-taught Video Editor, Web Developer and what not! With extensive marketing and communication experience. I am currently living in Chandigradh and pursuing a degree in Computer Science fom Chandigradh University.</p>
+                        <p className="content-content">I am a self-taught Video Editor, Web Developer and what not! With extensive marketing and communication experience. I am currently living in Chandigarh and pursuing a degree in Computer Science fom Chandigarh University.</p>
                     </div>
                 </div>
             </div>

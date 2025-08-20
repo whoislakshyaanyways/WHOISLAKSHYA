@@ -37,10 +37,10 @@ export default function SendMail() {
       <div className="form-container">
         <form className="contact-form" onSubmit={onSubmit}>
           <label htmlFor="name" className="form-label">Full Name</label>
-          <input type="text" name="name" id="name" placeholder="Lakshya Sharma" className="form-input" required />
+          <input type="text" name="name" id="name" placeholder="Your Name" className="form-input" required />
 
           <label htmlFor="email" className="form-label">Email</label>
-          <input type="email" name="email" id="email" placeholder="whoislakshyaanyways@gmail.com" className="form-input" required />
+          <input type="email" name="email" id="email" placeholder="XYZ@gmail.com" className="form-input" required />
 
           <label htmlFor="message" className="form-label">Message</label>
           <textarea name="message" id="message" placeholder="Share your thoughts..." className="form-textarea" required></textarea>
