@@ -15,7 +15,7 @@ function Hero(){
                     <img src={head} alt="Hero" />
                     </div>
                     <div className="full-name">Lakshya Sharma</div>
-                    <div className="dob">9th Oct 2006</div>
+                    <div className="dob">9th Sept 2006</div>
                 </div>
                 <div className="right">
                     <div class="container">

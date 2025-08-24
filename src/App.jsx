@@ -29,7 +29,7 @@ function App() {
         <Skills />
       </section>
 
-      {/* <section id="projects">
+      {/*} <section id="projects">
         <Projects />
       </section> */}
 

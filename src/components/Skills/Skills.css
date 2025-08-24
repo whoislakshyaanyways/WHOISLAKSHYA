@@ -2,28 +2,30 @@
 .bento{
     background-color: var(--background);
     margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    height: 80vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 90vh;
     width: auto;
     max-width: none;
     display: grid;
-    grid-template-columns: repeat(10,1fr) ;
-    grid-template-rows: repeat(9,1fr);
+    grid-template-columns: repeat(12,1fr) ;
+    grid-template-rows: repeat(11,1fr);
     column-gap: 10px;
     row-gap: 10px;
     grid-template-areas: 
-    "s1 s1 s1 s1 s1 s2 s2 s2 s2 s2"
-    "s1 s1 s1 s1 s1 s2 s2 s2 s2 s2"
-    "s1 s1 s1 s1 s1 s2 s2 s2 s2 s2"
-    "s1 s1 s1 s1 s1 s2 s2 s2 s2 s2"
-    "s1 s1 s1 s1 s1 s2 s2 s2 s2 s2"
-    "s1 s1 s1 s1 s1 s3 s3 s3 s3 s3"
-    "s4 s4 s4 s4 s4 s3 s3 s3 s3 s3"
-    "s4 s4 s4 s4 s4 s3 s3 s3 s3 s3"
-    "s4 s4 s4 s4 s4 s3 s3 s3 s3 s3"
+    ". . . . . . . . . . . ."
+    ". s1 s1 s1 s1 s1 s2 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s1 s2 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s1 s2 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s1 s2 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s1 s2 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s1 s3 s3 s3 s3 s3 ."
+    ". s4 s4 s4 s4 s4 s3 s3 s3 s3 s3 ."
+    ". s4 s4 s4 s4 s4 s3 s3 s3 s3 s3 ."
+    ". s4 s4 s4 s4 s4 s3 s3 s3 s3 s3 ."
+    ". . . . . . . . . . . ."
     ;
 }
 

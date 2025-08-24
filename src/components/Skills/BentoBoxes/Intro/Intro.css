@@ -30,8 +30,6 @@
 .skillHeading {
   margin: 0px;
   width: 100%;
-  display: flex;
-  align-items: end;
   font-size: clamp(2rem, 4vw, 4.5rem);
   font-weight: bolder;
   font-family: 'arvo';
@@ -42,7 +40,6 @@
   color: var(--text);
   font-family: 'jua'; 
   font-weight: bolder;
-  padding: 5%;
 }
 
 .spriteSheet{
@@ -56,9 +53,9 @@
 }
 
 .frames{
-  width: 208.95px;
-  max-width: 208.95px;
-  min-width: 208.95;
+  width: 175px;
+  max-width:175px;
+  min-width: 175px;
   height: 100%;
   overflow: hidden;
 }
@@ -73,23 +70,20 @@
 
 @media (max-width: 768px){
   .frames{
-    width: 75.95px;
-    max-width: 75.95px;
-    min-width: 75.95;
+    width: 80px;
+    max-width: 80px;
+    min-width: 80px;
   }
   .skill1Box{
     grid-template-areas: 
-    "a2 a1 a1 a1 a1"
-    "a2 a1 a1 a1 a1"
+    "a2 . a1 a1 a1"
+    "a2 . a1 a1 a1"
     "a3 a3 a3 a3 a3"
     "a3 a3 a3 a3 a3"
     "a3 a3 a3 a3 a3"
     ;
   }
   .skillHeading {
-  font-size: clamp(2rem, 4vw, 4.5rem);
-  display: flex;
-  align-items: end;
-  transform: translateY(20%);
+  font-size: clamp(1.5rem, 3vw, 3rem);
 }
 }
