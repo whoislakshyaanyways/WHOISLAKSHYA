@@ -1,5 +1,6 @@
 import './Hero.css'
 import head from '../../assets/head.jpg'; 
+import Garuda from '../../assets/Garuda.png'
 
 function Hero(){
     return(
@@ -7,21 +8,21 @@ function Hero(){
             <div className="hero">
 
                 <div className="hero-header">
-                    <h1 className="name-front">WHOISLAKSHYA</h1>
+                    <h1 className="name-front">Garuda</h1>
                 </div>
                 
                 <div className="left">
                     <div className="Hero-pic">
-                    <img src={head} alt="Hero" />
+                    <img src={Garuda} alt="Garuda" />
                     </div>
-                    <div className="full-name">Lakshya Sharma</div>
-                    <div className="dob">9th Sept 2006</div>
+                    <div className="full-name">Virtual Campus</div>
+                    <div className="dob">Ai Tutor</div>
                 </div>
                 <div className="right">
                     <div class="container">
-                        <h1 className="content-heading-1">Hello, I'm</h1>
-                        <h1 className="content-heading-2">Lakshya<span>!</span></h1>
-                        <p className="content-content">I am a self-taught Video Editor, Web Developer and what not! With extensive marketing and communication experience. I am currently living in Chandigarh and pursuing a degree in Computer Science fom Chandigarh University.</p>
+                        <h1 className="content-heading-1">Hello,</h1>
+                        <h1 className="content-heading-2">We are Garuda<span>!</span></h1>
+                        <p className="content-content">We are currently working on a fully fleged 3D campus with 3D Classrooms and Ai tutors Integrated with Vr technology and physical ready to deploy Bots.</p>
                     </div>
                 </div>
             </div>
