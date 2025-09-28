@@ -58,7 +58,7 @@ export default function OrbitingCircles() {
             <Icons 
               Style={{ width: "40px", height: "40px" }} 
               Image={Github} 
-              Link="https://github.com/whoislakshyaanyways" 
+              Link="https://github.com/whoislakshyaanyways"
             />
           </div>
         </div>

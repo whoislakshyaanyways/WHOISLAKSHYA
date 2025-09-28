@@ -1,6 +1,5 @@
 import './Skills.css';
 import { useRef } from 'react';
-import { Highlighter } from "/Users/lakshyasharma/Documents/code/react/portfolio/src/highlights.jsx";
 
 
 import Intro from './BentoBoxes/Intro/Intro';

@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar/NavBar';
+import Island from './components/Island/Island';
 import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
@@ -17,27 +18,29 @@ function App() {
       <section id="NavBar">
         <NavBar 
           isChecked={isDark}
-          handleChange={() => setIsDark(!isDark)}
+          handleChange={() => setIsDarxk(!isDark)}
         />
+        <Island />
       </section>
 
       <section id="hero">
         <Hero />
       </section>
 
-      {/*<section id="skills">
+      <section id="skills">
         <Skills />
       </section>
 
        <section id="projects">
         <Projects />
-      </section> */}
+      </section> 
 
-      <section id="contactMe" className="contact-section">
+      <section id="contactMe">
         <div className="Contact">
           <ContactMe />
         </div>
       </section>
+
     </div>
   );
 }

@@ -1,29 +1,52 @@
 import './Hero.css'
 import head from '../../assets/head.jpg'; 
-import Garuda from '../../assets/Garuda.png'
+import SlideUp from '../UI/Animations/SlideUp';
+
+import { motion } from "framer-motion"
 
 function Hero(){
     return(
-        <div>
-            <div className="hero">
+        <div className="h-screen pt-[10vh]">
+            <div className="left h-[50vh] ">
+                <div className="Hero-pic w-full transform rounded-lg">
+                <img 
+                    src={head} 
+                    alt="Hero" 
+                    className="w-full h-full scale-150 object-contain" 
+                />
+                </div>
 
-                <div className="hero-header">
-                    <h1 className="name-front">Garuda</h1>
+                <div 
+                style={{fontFamily:"Jockey One"}}
+                className="full-name bg-zinc-300 w-[60%] h-[100%] translate-x-[100%] absolute flex justify-center items-center m-2 text-[2vh] rounded-2xl shadow-md">
+                    Lakshya Sharma
                 </div>
-                
-                <div className="left">
-                    <div className="Hero-pic">
-                    <img src={Garuda} alt="Garuda" />
-                    </div>
-                    <div className="full-name">Virtual Campus</div>
-                    <div className="dob">Ai Tutor</div>
+
+                <div 
+                style={{fontFamily:"Jockey One"}}
+                className="dob bg-zinc-300 w-[60%] h-[100%] translate-x-[-50%] absolute flex justify-center items-center m-2 text-[2vh] rounded-2xl shadow-md">
+                    9th Sept 2006
                 </div>
-                <div className="right">
-                    <div class="container">
-                        <h1 className="content-heading-1">Hello,</h1>
-                        <h1 className="content-heading-2">We are Garuda<span>!</span></h1>
-                        <p className="content-content">We are currently working on a fully fleged 3D campus with 3D Classrooms and Ai tutors Integrated with Vr technology and physical ready to deploy Bots.</p>
+            </div>
+
+            <div className="flex flex-wrap justify-center w-full">
+                    <div className="w-[95vw] translate-y-[50%] overflow-hidden">
+                        <SlideUp delay={0.4}>
+                            <div className="w-[95vw] flex justify-between"
+                            style={{fontFamily:"Michroma", fontWeight:"900"}}>
+                                <div >CREATED</div>
+                                <div>TO</div>
+                                <div>CREATE</div>
+                            </div>
+                        </SlideUp>
                     </div>
+
+                <div className="w-full h-[25vh] flex items-start justify-center leading-none text-[30vh] overflow-hidden"
+                    style={{fontFamily:"Bebas Neue", fontWeight:"500"}}
+                >
+                <SlideUp delay={0.1}>
+                    WHOISLAKSHYA
+                </SlideUp>
                 </div>
             </div>
         </div>
@@ -31,3 +54,9 @@ function Hero(){
 }
 
 export default Hero;
+
+
+<SlideUp delay={0.1}>
+    
+</SlideUp>
+

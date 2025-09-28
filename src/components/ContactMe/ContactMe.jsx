@@ -15,9 +15,9 @@ export default function ContactMe() {
             I'd love to hear about your project and explore how we can work together.
           </p>
         </div>
-{/*        <div className="OrbitBox">
+        <div className="OrbitBox">
           <OrbitingCircles />
-        </div>*/}
+        </div>
       </div>
 
       <div className="Right">

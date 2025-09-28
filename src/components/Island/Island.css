@@ -1,0 +1,15 @@
+.text-slider .text-item {
+    --step: 2.5s;
+  animation: autoRun linear infinite;
+  animation-delay: calc((-10s / var(--quant)) * (var(--position) - 1));
+  animation-duration: calc(var(--quant) * var(--step));
+  animation-delay: calc(-1 * var(--step) * (var(--position) - 1));
+}
+
+
+
+/* Animation */
+@keyframes autoRun {
+  from { left: 100%; }
+  to   { left: -100%; }
+}
