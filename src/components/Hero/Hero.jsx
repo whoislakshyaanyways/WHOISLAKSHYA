@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 function Hero(){
     return(
-        <div className="h-screen pt-[10vh]">
+        <div className="h-screen pt-[10vh] bg-zinc-200">
             <div className="left h-[50vh] ">
                 <div className="Hero-pic w-full transform rounded-lg">
                 <img 

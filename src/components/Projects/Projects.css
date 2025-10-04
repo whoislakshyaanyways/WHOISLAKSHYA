@@ -1,12 +1,4 @@
 .page{
-    background-color: var(--background);
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    height: 80vh;
-    width: auto;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
@@ -29,16 +21,12 @@
 
 .slider {
     grid-area: s2;
-    width: 100%;
     mask-image: linear-gradient(
         to right,
         transparent,
-        #000 10% 90%,
+        #000 20% 80%,
         transparent
     );
-    perspective: 1000px;
-    overflow: visible;
-    display: flex;
 }
 
 .list {

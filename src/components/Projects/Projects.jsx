@@ -10,9 +10,9 @@ function Projects() {
   const images = [img1, img2, img3, img4, img5, img2, img3, img4, img5];
 
   return (
-    <div className="page">
-      <div className="slider">
-        <div className="list">
+    <div className="page h-screen w-auto bg-zinc-200 m-auto pt-[10vh] pr-[10%] pl-[10%]">
+      <div className="slider w-full overflow-visible flex perspective-[1000px]">
+        <div className="overflow-visible">
           {images.map((src, index) => (
             <div
               key={index}

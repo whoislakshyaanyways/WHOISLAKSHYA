@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import ContactMe from './components/ContactMe/ContactMe'
+import Loader from './components/Loader/Loader.jsx';
 
 import React, { useState } from 'react';
 
@@ -14,11 +15,17 @@ function App() {
   const [isDark, setIsDark] = useState(true);
 
   return (
+    
     <div className="Page" data-theme={!isDark ? "dark" : "light"}>
-      <section id="NavBar">
+
+      <section id="loader">
+        <Loader />
+      </section>
+
+{/*      <section id="NavBar">         
         <NavBar 
           isChecked={isDark}
-          handleChange={() => setIsDarxk(!isDark)}
+          handleChange={() => setIsDark(!isDark)}
         />
         <Island />
       </section>
@@ -27,20 +34,19 @@ function App() {
         <Hero />
       </section>
 
+      <section id="projects">
+        <Projects />
+      </section> 
+
       <section id="skills">
         <Skills />
       </section>
-
-       <section id="projects">
-        <Projects />
-      </section> 
 
       <section id="contactMe">
         <div className="Contact">
           <ContactMe />
         </div>
-      </section>
-
+      </section>*/}
     </div>
   );
 }
