@@ -1,0 +1,29 @@
+.left {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    "s3 s3 s3 s1 s1 s1 s1 . . ."
+    ". . . s1 s1 s1 s1 . . ."
+    ". . . s1 s1 s1 s1 . . ."
+    ". . . s1 s1 s1 s1 . . ."
+    ". . . s1 s1 s1 s1 . . ."
+    ". . . s1 s1 s1 s1 s4 s4 s4"
+    ". . . . . . . . . ."
+    ". . . . . . . . . .";
+  position: relative;
+}
+
+.Hero-pic { 
+  grid-area: s1; 
+}
+
+.full-name { 
+  grid-area: s3; 
+}
+
+.dob { 
+  grid-area: s4; 
+}

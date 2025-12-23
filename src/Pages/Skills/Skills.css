@@ -1,0 +1,110 @@
+/*Bento grid*/
+.bento{
+    display: grid;
+    grid-template-columns: repeat(14,1fr) ;
+    grid-template-rows: repeat(12,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: 
+    ". s1 s1 s1 s1 s5 s5 s5 s5 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s5 s5 s5 s5 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s5 s5 s5 s5 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s5 s5 s5 s5 s2 s2 s2 s2 ."
+    ". s1 s1 s1 s1 s5 s5 s5 s5 s2 s2 s2 s2 ."
+    ". s3 s3 s3 s3 s3 s3 s3 s3 s2 s2 s2 s2 ."
+    ". s3 s3 s3 s3 s3 s3 s3 s3 s2 s2 s2 s2 ."
+    ". s3 s3 s3 s3 s3 s3 s3 s3 s4 s4 s4 s4 ."
+    ". s3 s3 s3 s3 s3 s3 s3 s3 s4 s4 s4 s4 ."
+    ". s3 s3 s3 s3 s3 s3 s3 s3 s4 s4 s4 s4 ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ;
+}
+
+.bento{
+    grid-area: bento;
+}
+
+@keyframes appear-right {
+    0%{
+        opacity: 0;
+        transform: translate(+200px);
+    }100%{
+        opacity: 1;
+    }
+}
+
+@keyframes appear-left {
+    0%{
+        opacity: 0%;
+        transform: translate(-200px);
+    }100%{
+        opacity: 1;
+    }
+}
+
+.skill1,
+.skill2,
+.skill6{
+  animation: appear-right 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.skill3,
+.skill4,
+.skill5{
+    animation: appear-left 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+
+
+.skill1 {
+    grid-area: s1;
+}
+.skill2 {
+    grid-area: s2;
+}
+.skill3 {
+    grid-area: s3;
+}
+.skill4 {
+    grid-area: s4;
+}
+.skill5 {
+    grid-area: s5;
+}
+
+
+.bento .skill {
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+.bento .skill:hover {
+  transform: translateZ(150px) scale(1.03);
+  z-index: 10;
+}
+
+
+
+@media (max-width: 768px) {
+    .bento{
+        grid-template-columns: repeat(3,1fr) ;
+        grid-template-rows: repeat(8,1fr);
+        grid-template-areas: 
+        "s1 s1 s1"
+        "s1 s1 s1"
+        "s2 s2 s2"
+        "s2 s2 s2"
+        "s3 s3 s3"
+        "s3 s3 s3"
+        "s4 s4 s4"
+        "s4 s4 s4"
+        "s5 s5 s5"
+        "s5 s5 s5"
+        ;
+    }
+}

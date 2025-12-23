@@ -1,6 +1,14 @@
 /* index.css */
+html {
+  scroll-behavior: smooth;
+}
+
 
 @import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+}
 
 :root {
   --width: 300px;  
@@ -33,6 +41,7 @@
 body {
   font-family: sans-serif;
     background-color: (--background);
+    overflow-x: hidden;
 }
 
 html, body {

@@ -1,12 +1,12 @@
-import NavBar from './components/NavBar/NavBar';
-import Island from './components/Island/Island';
-import Hero from './components/Hero/Hero';
-import Skills from './components/Skills/Skills';
-import Projects from './components/Projects/Projects';
-import ContactMe from './components/ContactMe/ContactMe'
-import Loader from './components/Loader/Loader.jsx';
-
 import React, { useState } from 'react';
+import { motion, useScroll, useTransform } from "framer-motion"
+
+import NavBar from './components/NavBar';
+import Island from './components/Island/Island';
+import Hero from './Pages/Hero/Hero';
+import Skills from './Pages/Skills/Skills';
+import Projects from './Pages/Projects/Projects';
+import ContactMe from './Pages/ContactMe/ContactMe';
 
 import './App.css';
 import './index.css';
@@ -16,13 +16,9 @@ function App() {
 
   return (
     
-    <div className="Page" data-theme={!isDark ? "dark" : "light"}>
-
-      <section id="loader">
-        <Loader />
-      </section>
-
-{/*      <section id="NavBar">         
+    <div className="Page relative min-h-screen" data-theme={!isDark ? "dark" : "light"}>
+    
+      <section id="NavBar">
         <NavBar 
           isChecked={isDark}
           handleChange={() => setIsDark(!isDark)}
@@ -43,10 +39,8 @@ function App() {
       </section>
 
       <section id="contactMe">
-        <div className="Contact">
-          <ContactMe />
-        </div>
-      </section>*/}
+        <ContactMe />
+      </section>
     </div>
   );
 }
