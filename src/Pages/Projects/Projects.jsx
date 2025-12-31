@@ -1,4 +1,4 @@
-import HorizontalScroll from '../../components/HorizontalScroll';
+import Pjs from '../../components/Pjs';
 import './Projects.css'
 function Projects() {
   return (
@@ -7,7 +7,7 @@ function Projects() {
       <div className="pb-30 max-w-[1440px] mx-auto w-full">
         <h1 className="heading text-8xl font-bold mb-10 pl-20 max-md:text-6xl">Work in motion.</h1>
         <div className="animate-slide-in ">
-          <HorizontalScroll />
+          <Pjs />
         </div>
       </div>
     </div>

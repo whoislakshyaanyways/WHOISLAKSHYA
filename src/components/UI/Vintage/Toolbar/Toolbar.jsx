@@ -4,28 +4,28 @@ import git from '../../../../assets/Icons/github.png'
 import insta from '../../../../assets/Icons/Instagram.webp'
 import x from '../../../../assets/Icons/x.webp'
 import Linkden from '../../../../assets/Icons/linkedin.webp'
+import { RotateCcwSquare, RotateCwSquare, ZoomIn, ZoomOut } from 'lucide-react'
 
+const iconStyle = 'w-[2.5vw] h-[2.5vw] flex justify-center items-center cursor-pointer \
+bg-[#bfbfbf] border-[0.125rem] border-solid border-t-[#ffffff] border-l-[#ffffff] \
+border-r-[#808080] border-b-[#808080] hover:border-t-[#808080] hover:border-l-[#808080] \
+hover:border-r-[#ffffff] hover:border-b-[#ffffff]';
 
 const Toolbar = ({ devInfo }) => {
 
   return (
     <div className="bg-[#bfbfbf] w-[8.5vh] h-[42vh] flex flex-col justify-between border-[0.125rem] border-t-[#ffffff] border-l-[#ffffff] border-r-[#808080] border-b-[#808080]">
-    
-      
       <div style={{ fontFamily: '"Doto", sans-serif' }} className=" flex justify-center items-center font-bold bg-[#bfbfbf] h-[4vh] border-[0.125rem] border-t-[#ffffff] border-l-[#ffffff] border-r-[#808080] border-b-[#808080]">
         {devInfo.name}
       </div>
 
       <div className="flex flex-wrap justify-center content-start gap-[.5rem] p-[.5rem] flex-1 overflow-y-auto">
-        <MsButton 
-        Text="zoom_in"/>
-        <MsButton 
-        Text="zoom_out"/>
-        <MsButton
-        Text="rotate_90_degrees_ccw"/>
-        <MsButton 
-        Text="rotate_90_degrees_cw"/> 
-       
+
+        <ZoomIn className={iconStyle} />
+        <ZoomOut className={iconStyle} />
+        <RotateCcwSquare className={iconStyle} />
+        <RotateCwSquare className={iconStyle} />
+
         <MsButton Image={git} Link={devInfo.git}
         />
         <MsButton Image={insta} Link={devInfo.insta} Style={{ transform: "scale(0.7)" , filter:"grayscale(100%)" }}

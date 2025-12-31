@@ -1,0 +1,206 @@
+[
+  {
+    "category": "In production",
+    "title": "Anaadi",
+    "subtitle": "",
+    "description": "",
+    "techStack": {
+      "frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-300"
+  },
+  {
+    "category": "In production",
+    "title": "Civic Lense",
+    "subtitle": "Civic Lense is an app that makes reporting civic issues simple and effective. Users can photograph problems like potholes, garbage, broken roads, or electric hazards, and the app automatically geo-tags and timestamps the report before sending it to the correct government authority. The platform also lets users discuss civic issues in city- or state-based forums, creating a leaderboard that motivates regions to improve civic responsibility.",
+    "description": "simplify the process of reporting civic problems to the government. Users can open the app, upload a picture of an issue—such as potholes, broken roads, stagnant water, garbage dumps, stray cattle, electric hazards, or construction debris—and the app handles the rest. The platform automatically adds a geo tag and a timestamp to the picture and submits the complaint to the appropriate government authority. Another thing is we can make communities for cities and states where people can discuss the civic sense of people there so it becomes competitive to have their state or city more civic forward and there will also be a leaderboard",
+    "techStack": {
+      "Frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "Backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "Database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [
+      "One-Tap Issue Reporting",
+      "Smart Authority Routing",
+      "Anonymous Reporting",
+      "Community Discussions",
+      "Civic Leaderboards"
+    ],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-500"
+  },
+  {
+    "category": "In production",
+    "title": "Virtual Pet",
+    "subtitle": "Virtual Pet is a hybrid software + hardware personal assistant designed to help users manage tasks, habits, and daily journaling in an engaging, emotional way. On the software side, it functions as a task manager, habit tracker, journal keeper, and personal assistant, where users can log tasks, reflect on their day, and track consistency over time.",
+    "description": "Virtual Pet is a hybrid software + hardware personal assistant designed to help users manage tasks, habits, and daily journaling in an engaging, emotional way. On the software side, it functions as a task manager, habit tracker, journal keeper, and personal assistant, where users can log tasks, reflect on their day, and track consistency over time. The hardware component is a physical bot that uses OpenCV to follow the user’s movement and interact in real time. It listens to voice input to capture tasks, habits, and daily checklists, syncing them with the user’s digital journal. The bot features two displays: one expressive screen that shows emotions as animated eyes, creating a sense of personality, and a second display that presents daily tasks, habit progress, journal entries, and text-based responses—making productivity feel more personal and alive rather than mechanical.",
+    "techStack": {
+      "Frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "Backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "Database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [
+      "Task & Habit Management",
+      "Physical Companion Bot",
+      "Voice Interaction",
+      "Emotional Feedback System",
+      "Dual Display Interface"
+    ],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-400"
+  },
+  {
+    "category": "In production",
+    "title": "Skyline",
+    "subtitle": "Skyline is a productivity app that turns focused work into a growing city. Users complete Pomodoro sessions to build or upgrade structures on a city grid, while unfinished sessions create ruins. Over time, the evolving skyline visually reflects focus, consistency, and progress.",
+    "description": "Skyline is a web-based productivity app that turns focused work into a growing city. Using the Pomodoro technique, users work in timed sessions (25–120 minutes) to construct or upgrade buildings on a 10x10 city grid. Completing a session successfully builds or upgrades a structure, while quitting early leaves ruins, giving immediate visual feedback. Over time, the city evolves with day/night cycles, animated buildings, and ambient sounds, creating a unique skyline that reflects the user’s focus habits. The app saves progress locally, letting users watch their personal city grow as they stay productive.",
+    "techStack": {
+      "Frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "Backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "Database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [
+      "Pomodoro-Based Focus Sessions",
+      "City-Building System",
+      "Failure Feedback",
+      "Living City Visuals",
+      "Progress Persistence"
+    ],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-500"
+  },
+  {
+    "category": "In production",
+    "title": "Campus Hangout",
+    "subtitle": "Campus Hangout is a campus-based social platform that helps students discover and join real-world hangouts, making socializing easier and more spontaneous.",
+    "description": "A campus-based social platform that helps students create and discover real-world hangouts within their university. Users can host or join hangouts based on type, location, and time, with a minimum of five participants required to activate a hangout. Students sign up using their university ID or mobile number and earn scores for hosting or attending hangouts based on participation and engagement, leading to separate leaderboards for hosts and attendees. The platform also enables users to connect with friends, receive notifications about ongoing hangouts, and build active campus communities.",
+    "techStack": {
+      "Frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "Backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "Database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [
+      "Live Hangout Creation",
+      "Minimum Participation Rule",
+      "Scoring & Leaderboards",
+      "Friends & Social Layer",
+      "University-Based Access"
+    ],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-300"
+  },
+  {
+    "category": "In production",
+    "title": "Web Games",
+    "subtitle": "A group of Web games to pass your time",
+    "description": "",
+    "techStack": {
+      "Frontend": {
+        "techStack": "React + Vite",
+        "description": "Used for building the frontend UI with fast development and efficient integration."
+      },
+      "Backend": {
+        "techStack": "",
+        "description": ""
+      },
+      "Database": {
+        "techStack": "",
+        "description": ""
+      }
+    },    
+    "keyFeatures": [
+      "Live Hangout Creation",
+      "Minimum Participation Rule",
+      "Leaderboards for hosts and attendees",
+      "Friends & Social Layer",
+      "University-Based Access"
+    ],
+    "devInfo": {
+    "name": "Laksh",
+    "git": "https://github.com/whoislakshyaanyways",
+    "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+    "x": "https://x.com/WHOISLAKSHYAA",
+    "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+    },
+    "backgroundClass": "bg-zinc-400"
+  }
+]

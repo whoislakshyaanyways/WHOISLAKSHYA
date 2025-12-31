@@ -19,7 +19,7 @@ function App() {
     <div className="Page relative min-h-screen" data-theme={!isDark ? "dark" : "light"}>
     
       <section id="NavBar">
-        <NavBar 
+        <NavBar
           isChecked={isDark}
           handleChange={() => setIsDark(!isDark)}
         />
