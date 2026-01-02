@@ -11,7 +11,7 @@ function Island() {
 
   return (
     <div className="fixed bottom-0 p-[clamp(0.5rem,2vw,1.5rem)] w-full flex justify-center z-50">
-      <div className="relative w-[clamp(80vw,50vw,40vw)] max-md:w-[90vw]">
+      <div className="relative w-[clamp(80vw,50vw,40vw)] max-md:hidden">
 
         {/* DROPDOWN MENU */}
         <AnimatePresence>

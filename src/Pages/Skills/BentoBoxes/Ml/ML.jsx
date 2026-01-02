@@ -20,7 +20,6 @@ const ML = () => {
           Currently building strong foundations in Python, data analysis, and core ML algorithms through hands-on projects and structured courses. Learning to design, evaluate, and deploy machine learning models, with practical experience in FastAPI and data visualization.
         </p>
       </div>
-
     </div>
  
   );

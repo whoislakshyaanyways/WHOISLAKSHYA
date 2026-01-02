@@ -2,7 +2,7 @@ function NavBar({ handleChange, isChecked }) {
   return (
     <header className="fixed z-50 w-full bg-transparent">
       <div className="h-[10vh] flex items-center justify-between px-5
-      max-md:justify-end">
+      max-md:">
 
         <div
           style={{ fontFamily: "Michroma", fontWeight: "999" }}

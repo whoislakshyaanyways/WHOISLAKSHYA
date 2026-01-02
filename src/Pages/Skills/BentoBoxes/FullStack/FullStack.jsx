@@ -24,7 +24,7 @@ const FullStack = () => {
 
 
       <div className="flex flex-col w-full h-full
-      max-md:flex-row">
+      max-md:hidden">
         {colors.map((item) => (
           <Card
             key={item.label}

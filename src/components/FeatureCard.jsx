@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Button from "./UI/Buttons/Button";
-import PopUp from "./PopUp";
 import Mspaint from "./UI/Vintage/Mspaint/Mspaint"
 
 import ProjectInfo from "../Data/features.json"
@@ -87,18 +86,20 @@ const FeatureCard = () => {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-white w-3/5 max-h-[90vh] overflow-y-auto p-6 relative rounded-t-4xl shadow-xl flex flex-col gap-7"
+            className="bg-white w-3/5 max-h-[90vh] overflow-y-auto p-6 relative rounded-t-4xl shadow-xl flex flex-col gap-7
+            max-md:w-full"
           >
             <div className="flex justify-end">
               <button
               onClick={() => setProject(false)}
-              className="w-8 h-8 top-0 right-0 rounded-full bg-gray-100 hover:bg-gray-200"
+              className="fixed w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200"
               >
                 ×
               </button>
             </div>
 
-            <div className="flex justify-between">
+            <div className="flex justify-between
+            max-md:flex-col">
               <h1 className="text-5xl font-bold">{Project.title}</h1>
                 <p className="text-base">{Project.category}</p>
             </div>
@@ -108,7 +109,8 @@ const FeatureCard = () => {
               <p>{Project.description}</p>
             </div>
 
-            <div className="bg-zinc-300 rounded-2xl p-12 flex flex-col gap-3">
+            <div className="bg-zinc-300 rounded-2xl p-12 flex flex-col gap-3
+            max-md:p-5">
               <h1 className="text-3xl font-bold">Tech Stack Used</h1>
               <table className="w-full border-collapse">
                   <thead className="bg-gray-200">
@@ -173,7 +175,8 @@ const FeatureCard = () => {
               </div>
             </div>
 
-            <div className="bg-zinc-300 rounded-2xl p-12 flex flex-col gap-3">
+            <div className="bg-zinc-300 rounded-2xl p-12 flex flex-col gap-3 
+            max-md:hidden">
               <h1 className="text-3xl font-bold">Devs</h1>
               <div className="flex justify-around items-center">
                 <Mspaint devInfo={devInfo1}/>

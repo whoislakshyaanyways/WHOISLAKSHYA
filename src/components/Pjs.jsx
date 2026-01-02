@@ -2,9 +2,6 @@ import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Button from "./UI/Buttons/Button";
 import FeatureCard from "./FeatureCard";
-import PopUp from "./PopUp";
-
-
 
 const Pjs = ({ }) => {
   const scrollContainerRef = useRef(null);

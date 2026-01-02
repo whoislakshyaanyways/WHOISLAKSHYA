@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MsButton =({Text,Image,Style,Link}) => {
+const MsButton =({Image,Style,Link}) => {
 const handleClick = () => {
   console.log("handleClick called with Link:", Link);
   if (Link) {
@@ -10,18 +10,7 @@ const handleClick = () => {
 
 
   
-  return Text && !Image ? (
-    <button
-      src={Image} 
-      style={Style} 
-      onClick={handleClick} 
-      role="button"
-      className="material-symbols-outlined w-[2.5vw] h-[2.5vw] flex justify-center items-center cursor-pointer 
-      bg-[#bfbfbf] border-[0.125rem] border-solid border-t-[#ffffff] border-l-[#ffffff] border-r-[#808080] border-b-[#808080] 
-      hover:border-t-[#808080] hover:border-l-[#808080] hover:border-r-[#ffffff] hover:border-b-[#ffffff]"
-    >{Text}
-    </button>
-  ) :(
+  return (
     <button 
       onClick={handleClick} 
       className="w-[2.5vw] h-[2.5vw] flex justify-center items-center cursor-pointer 
