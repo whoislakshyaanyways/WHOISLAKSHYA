@@ -1,0 +1,32 @@
+{
+  "workExperience": [
+    {
+      "id": "1",
+      "what": "Co-Founder, Manager & Video Editor – NGO",
+      "when": "2022 – 2024",
+      "description": "Led content strategy, managed the team, and edited high-impact short-form videos to promote NGO initiatives and social causes.",
+      "video": "/videos/ngo-work.mp4"
+    },
+    {
+      "id": "2",
+      "what": "Freelance Video Editor – Models",
+      "when": "2023 – Present",
+      "description": "Created engaging short-form content for models, focusing on branding, aesthetics, and social media growth.",
+      "video": "/videos/model-reel.mp4"
+    },
+    {
+      "id": "3",
+      "what": "Freelance Color Grading Artist",
+      "when": "2024 – Present",
+      "description": "Delivered professional color grading for cinematic and social media projects, enhancing mood, tone, and visual storytelling.",
+      "video": "/videos/color-grading.mp4"
+    },
+    {
+      "id": "4",
+      "what": "Music Video Editor",
+      "when": "2025",
+      "description": "Edited a full-length music video with creative cuts, transitions, and color grading to match the artist’s vision.",
+      "video": "/videos/music-video.mp4"
+    }
+  ]
+}

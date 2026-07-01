@@ -1,0 +1,130 @@
+{
+  "Features": [
+    {
+      "id": "1",
+      "category": "In production",
+      "title": "Civic Lense",
+      "year": "2025",
+      "live": "",
+      "github": "",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-with-light-trails-41617-large.mp4",
+      "subtitle": "An app that makes reporting civic issues simple and effective through automated geo-tagging, routing, and community forums.",
+      "overview": "Simplify the process of reporting civic problems to local governments...",
+      "goalsAndObjectives": [
+        "Reduce friction in community-to-government reporting channels.",
+        "Foster localized civic engagement through state and city forums.",
+        "Gamify community responsibility using transparent regional leaderboards."
+      ],
+      "keyFeatures": [
+        "One-Tap Issue Reporting",
+        "Smart Authority Routing",
+        "Anonymous Reporting",
+        "Community Discussions",
+        "Civic Leaderboards"
+      ],
+      "devInfo": {
+        "name": "Laksh",
+        "git": "https://github.com/whoislakshyaanyways",
+        "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+        "x": "https://x.com/WHOISLAKSHYAA",
+        "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+      },
+      "bg": "bg-zinc-500"
+    },
+    {
+      "id": "2",
+      "category": "In production",
+      "title": "Hangout Drive",
+      "year": "2025",
+      "live": "",
+      "github": "",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-group-of-friends-having-fun-at-a-party-40402-large.mp4",
+      "subtitle": "An intelligent cloud media vault that automatically organizes social gatherings by people, locations, and moods.",
+      "overview": "A dedicated storage solution designed specifically for social groups...",
+      "goalsAndObjectives": [
+        "Eliminate the hassle of manual media sorting after group events.",
+        "Provide intuitive, contextual memory retrieval using AI analysis.",
+        "Create a seamless collaborative space for friends to centralize shared media."
+      ],
+      "keyFeatures": [
+        "Smart Hangout Albums",
+        "AI-Powered Face & Object Recognition",
+        "Location-Based Auto-Grouping",
+        "Vibe & Sentiment Categorization",
+        "Seamless Group Media Sharing"
+      ],
+      "devInfo": {
+        "name": "Laksh",
+        "git": "https://github.com/whoislakshyaanyways",
+        "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+        "x": "https://x.com/WHOISLAKSHYAA",
+        "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+      },
+      "bg": "bg-zinc-300"
+    },
+    {
+      "id": "3",
+      "category": "In production",
+      "title": "Ishaara",
+      "year": "2026",
+      "live": "",
+      "github": "",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-person-typing-on-a-laptop-42284-large.mp4",
+      "subtitle": "A Duolingo-style Indian Sign Language (ISL) learning platform with real-time hand tracking and computer vision translation.",
+      "overview": "Ishaara bridges the communication gap between the deaf community and their families...",
+      "goalsAndObjectives": [
+        "Lower the barriers to ISL literacy for families and communities through accessible, 10-minute daily lessons.",
+        "Deliver low-latency, on-device one-hand sign verification using MediaPipe tracking and TensorFlow Lite classifiers.",
+        "Eradicate social isolation for deaf individuals at home and in public spaces via seamless live gesture-to-speech translation.",
+        "Establish a clear product roadmap extending into assistive hardware companions and robotic sign-demonstration models."
+      ],
+      "keyFeatures": [
+        "Real-Time Hand Sign Verification",
+        "Live Sign-to-Text / Speech Translation",
+        "Gamified Learning (Streaks, XP & Badges)",
+        "ISLRTC Standardized Curriculum Integration",
+        "Multi-Profile Family Plans"
+      ],
+      "devInfo": {
+        "name": "Laksh",
+        "git": "https://github.com/whoislakshyaanyways",
+        "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+        "x": "https://x.com/WHOISLAKSHYAA",
+        "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+      },
+      "bg": "bg-teal-900"
+    },
+    {
+      "id": "4",
+      "category": "In production",
+      "title": "NeuroLearn",
+      "year": "2025",
+      "live": "",
+      "github": "",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-futuristic-digital-background-with-lines-and-dots-42171-large.mp4",
+      "subtitle": "An AI-powered 3D and VR educational platform designed for neurodiverse students and infrastructure-deprived school systems.",
+      "overview": "NeuroLearn is an immersive educational ecosystem deployed across a 3D web portal...",
+      "goalsAndObjectives": [
+        "Bridge the infrastructural gap in rural and government schools by deploying cost-flexible, virtual learning environments.",
+        "Enhance engagement and focus for neurodiverse students through highly tactile, spatial, and gamified lesson delivery.",
+        "Build a robust content pipeline leveraging open NCERT curriculums optimized for conversational AI models.",
+        "Ensure full DPDP Act compliance and WCAG-aligned accessibility standards to securely protect and serve student users."
+      ],
+      "keyFeatures": [
+        "Immersive Three.js 3D Classrooms",
+        "Cross-Platform VR Integration",
+        "AI Avatar Tutor with TTS & STT Capabilities",
+        "Interactive 3D Chemistry Periodic Table Prototype",
+        "Hardware Companion Bot with Object/Head Tracking"
+      ],
+      "devInfo": {
+        "name": "Laksh",
+        "git": "https://github.com/whoislakshyaanyways",
+        "insta": "https://www.instagram.com/whoislakshyaanyways?igsh=MTB4bTdlZnpkYWpjeg==",
+        "x": "https://x.com/WHOISLAKSHYAA",
+        "linkedin": "https://www.linkedin.com/in/whoislakshyaanyways/"
+      },
+      "bg": "bg-indigo-950"
+    }
+  ]
+}

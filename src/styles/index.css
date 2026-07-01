@@ -1,0 +1,40 @@
+/* index.css */
+@import "./theme.css";
+html {
+  scroll-behavior: smooth;
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+}
+
+:root {
+  --width: 300px;  
+  --quant: 9;       
+}
+
+body {
+  font-family: sans-serif;
+    background-color: (--background);
+    overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

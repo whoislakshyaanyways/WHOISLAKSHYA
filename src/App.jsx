@@ -1,47 +1,36 @@
-import React, { useState } from 'react';
-import { motion, useScroll, useTransform } from "framer-motion"
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-import NavBar from './components/NavBar';
-import Island from './components/Island/Island';
-import Hero from './Pages/Hero/Hero';
-import Skills from './Pages/Skills/Skills';
-import Projects from './Pages/Projects/Projects';
-import ContactMe from './Pages/ContactMe/ContactMe';
+import Layout from './components/Layout';
+import Landing from './pages/Landing';
+import Zero from './pages/Zero';
+import ProjectPage from './sections/Tech/ProjectPage';
 
-import './App.css';
-import './index.css';
+import One from './pages/One';
+import Playground from './pages/Playground';
+
+import ScrollToTop from './hooks/scrollToTop';
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
-
   return (
-    
-    <div className="Page relative min-h-screen" data-theme={!isDark ? "dark" : "light"}>
-    
-      <section id="NavBar">
-        <NavBar
-          isChecked={isDark}
-          handleChange={() => setIsDark(!isDark)}
-        />
-        <Island />
-      </section>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Landing />} />
 
-      <section id="hero">
-        <Hero />
-      </section>
+        <Route element={<Layout />}>
+          <Route path="zero">
+            <Route index element={<Zero />} />
+            <Route path="projects/:projectId" element={<ProjectPage />} />
+          </Route>
+        </Route>
 
-      <section id="projects">
-        <Projects />
-      </section> 
-
-      <section id="skills">
-        <Skills />
-      </section>
-
-      <section id="contactMe">
-        <ContactMe />
-      </section>
-    </div>
+          <Route path="one">
+            <Route index element={<One />} />
+            <Route path="Playground" element={<Playground />} />
+          </Route>
+      </Routes>
+    </Router>
   );
 }
 

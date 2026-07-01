@@ -1,0 +1,44 @@
+{
+  "skillInfo": [
+    {
+      "id": "01",
+      "skill": "Cuts and Edits",
+      "description": "I craft smooth, engaging edits that keep the audience hooked. From fast-paced social content to cinematic sequences, every cut is intentional and purposeful.",
+      "things": [
+    ],
+      "snippit": ""
+    },    
+    {
+      "id": "02",
+      "skill": "Colorgrading",
+      "description": "I bring visuals to life with cinematic color grading, enhancing mood, tone, and storytelling. Every frame is polished to create a distinct and memorable look.",
+      "things": [
+    ],
+      "snippit": ""
+    },    
+    {
+      "id": "03",
+      "skill": "Motion Graphics",
+      "description": "I design dynamic motion graphics that elevate content and add visual flair. From subtle overlays to full animations, I make ideas move on screen.",
+      "things": [
+    ],
+      "snippit": ""
+    },    
+    {
+      "id": "04",
+      "skill": "Cinematography and Storytelling",
+      "description": "I capture stories through the lens with cinematic framing, lighting, and composition. My approach ensures every shot is visually compelling and story driven.",
+      "things": [
+    ],
+      "snippit": ""
+    },    
+    {
+      "id": "05",
+      "skill": "Content",
+      "description": "I create engaging content from ideation to final output, blending creativity with strategy to make visuals that connect and perform.",
+      "things": [
+    ],
+      "snippit": ""
+    }
+  ]
+}

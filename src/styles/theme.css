@@ -1,0 +1,18 @@
+/* theme.css */
+:root {
+  /* Primary colors */
+  --color-primary: hsl(220, 90%, 56%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  /* Secondary / neutrals */
+  --color-secondary: hsl(210, 15%, 20%);
+  --color-background: hsl(0, 0%, 98%);
+  --color-foreground: hsl(0, 0%, 10%);
+
+  /* Font families */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Merriweather", serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* Spacing base */
+  --spacing-base: 0.5rem;
+}
