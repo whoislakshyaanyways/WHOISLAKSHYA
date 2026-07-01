@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import git from '../assets/Icons/github.png'
 import insta from '../assets/Icons/Instagram.webp'
-import x from '../assets/Icons/x.webp'
+import x from '../assets/Icons/X.webp'
 import Linkden from '../assets/Icons/linkedin.webp'
 
 // ─── MsButton ───────────────────────────────────────────────
